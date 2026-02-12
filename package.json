@@ -9,7 +9,8 @@
     "lint": "next lint",
     "supa:start": "npx supabase start",
     "supa:stop": "npx supabase stop",
-    "supa:status": "npx supabase status"
+    "supa:status": "npx supabase status",
+    "init:local": "cp .env.example .env.local && npm install && npx supabase start"
   },
   "dependencies": {
     "next": "16.1.6",
